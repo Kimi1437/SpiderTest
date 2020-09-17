@@ -11,6 +11,7 @@ def print_hi(name):
     html_path = input("Enter html path:")
     url_path = html_path
     soup = BeautifulSoup("<html><body><p>data</p></body></html>")
+    print("this is conflict test")
 
 
 # Press the green button in the gutter to run the script.
