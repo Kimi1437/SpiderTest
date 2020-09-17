@@ -2,6 +2,7 @@
 
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+from bs4 import BeautifulSoup
 
 
 def print_hi(name):
@@ -9,6 +10,7 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
     html_path = input("Enter html path:")
     url_path = html_path
+    soup = BeautifulSoup("<html><body><p>data</p></body></html>")
 
 
 # Press the green button in the gutter to run the script.
