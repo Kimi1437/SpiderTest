@@ -12,6 +12,7 @@ def print_hi(name):
     url_path = html_path
     soup = BeautifulSoup("<html><body><p>data</p></body></html>")
     print("this is a test code")
+    print("this is conflict test")
 
 
 # Press the green button in the gutter to run the script.
